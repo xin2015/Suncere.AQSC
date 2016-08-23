@@ -22,7 +22,7 @@ namespace Suncere.AQSC
 
         static ParameterHelper()
         {
-            EmptyValueString = "NA";
+            EmptyValueString = "—";
             PollutantDic = new Dictionary<string, string>(){
                 {"SO2","二氧化硫"},
                 {"NO2","二氧化氮"},
